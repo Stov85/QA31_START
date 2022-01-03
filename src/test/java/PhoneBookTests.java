@@ -67,13 +67,13 @@ public class PhoneBookTests {
 
         List <WebElement> list1 = wd.findElements(By.tagName("button"));
         WebElement buttonRegistration = list1.get(1);
-        
+
         buttonRegistration.click();
     }
 
     @AfterMethod
     public void close(){
-      //  wd.quit(); //all tabs
+         //  wd.quit(); //all tab
         // wd.close(); //focus wd
     }
 }
